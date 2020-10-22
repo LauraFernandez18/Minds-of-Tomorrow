@@ -1,78 +1,84 @@
-        * {
-            box-sizing: border-box;
-            font-family: 'Quicksand', sans-serif;
-        }
-        
-        body {
-            margin: 0;
-        }
-        
-        .header {
-            background-image: url('../img/banner-1.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            padding: 9%;
-            text-align: center;
-        }
-        
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        
-        .header h1 {
-            font-size: 75px;
-            color: black;
-        }
-        
-        .two-column {
-            padding: 40px;
-            float: left;
-            width: 50%;
-        }
-        
-        .two-column h1 {
-            font-size: 85px;
-        }
-        
-        .two-column p {
-            font-size: 45px;
-        }
-        
-        .two-column img {
-            float: center;
-            width: 90%;
-        }
-        
-        .one-column {
-            padding: 40px;
-            float: center;
-            width: 100%;
-            background-color: #28ECA5;
-        }
-        
-        .one-column h1 {
-            font-size: 75px;
-            padding-left: 20%;
-            padding-right: 20%;
-            text-align: center;
-        }
-        
-        .one-column img {
-            padding-right: 20%;
-            padding-left: 20%;
-        }
-        
-        .four-column {
-            padding left: 20%;
-            padding right: 20%;
-            background-color: #28ECA5;
-            float: left;
-            width: 100%;
-        }
-        
-        .four-column img {
-            padding: 5px;
-            width: 25%;
-        }
+                        * {
+                        box-sizing: border-box;
+                        font-family: 'Quicksand', sans-serif;
+                    }
+                    
+                    body {
+                        margin: 0;
+                    }
+                    
+                    .header {
+                        background-image: url('../img/banner-1.jpg');
+                        background-size: cover;
+                        background-attachment: fixed;
+                        padding: 9%;
+                        text-align: center;
+                    }
+                    
+                    .row:after {
+                        content: "";
+                        display: table;
+                        clear: both;
+                    }
+                    
+                    .header h1 {
+                        font-size: 75px;
+                        color: black;
+                    }
+                    
+                    .two-column {
+                        padding: 40px;
+                        float: left;
+                        width: 50%;
+                    }
+                    
+                    .two-column h1 {
+                        font-size: 6vw;
+                    }
+                    
+                    .two-column p {
+                        font-size: 3vw;
+                    }
+                    
+                    .two-column img {
+                        float: center;
+                        width: 100%;
+                    }
+                    
+                    .one-column {
+                        padding-right: 20%;
+                        padding-left: 20%;
+                        padding-top: 5%;
+                        float: center;
+                        width: 100%;
+                    }
+                    
+                    #color1 {
+                        background-color: #28ECA5;
+                    }
+                    
+                    .one-column h1 {
+                        font-size: 78px;
+                        text-align: center;
+                    }
+                    
+                    .four-column {
+                        float: left;
+                        width: 25%;
+                        padding: 10px;
+                    }
+                    
+                    .four-column img {
+                        width: 100%;
+                    }
+                    
+                    .four-column h2 {
+                        font-size: 25px;
+                        text-align: center;
+                        width: 100%;
+                    }
+                    
+                    @media screen and (max-width:600px) {
+                        .four-column {
+                            width: 50%;
+                        }
